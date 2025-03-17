@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #09122C, #872341, #BE3144, #E17564); /* Background Gradient */
+    color: #ffffff; /* Default Text Color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Section Background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5); /* Section Background for Header */
+    color: #a4210c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #E17564; /* Peachy beige border */
+}
+
+.quote {
+    font-style: italic;
+    color: #E17564; /* Peachy beige quote color */
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2 {
+    color: #E17564; /* Peachy beige heading color */
+    border-bottom: 2px solid #E17564; /* Peachy beige border */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(0, 0, 0, 0.5); /* Section Background for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #E17564; /* Peachy beige border */
+    color: white; /* White text for list items */
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.caption {
+    font-size: 0.9em;
+    color: #E17564; /* Peachy beige caption color */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Footer Background */
+}
+
+.back-btn {
+    display: inline-block;
+    background: #872341; /* Deep red button background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.back-btn:hover {
+    background: #600000; /* Darker red on hover */
+}
